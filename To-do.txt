@@ -1,0 +1,5 @@
+1. Test path and extension by using a parameter validation script for the save output parameter.
+2. After closing form, some anoying output is returned to console. I have tried to [void], | Out-null and .Dispose() alot of stuff, but the output persists. Figure it out?
+3. Set property so that main form i not resizeable.
+4. It does not make sense to ask for both height and width parameters as output should be 1:1 between these two. Merge into one parameter names size maybe?
+5. ...?
