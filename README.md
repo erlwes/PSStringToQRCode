@@ -14,7 +14,20 @@ I simply pieced it together, so that it will perform a very specific task in Pow
 install-Module -Name PSStringToQRCode
 ```
 
-## Example 1
+## Functions
+
+###🟢Convert-StringToQR
+
+```PowerShell
+"let's get schwifty" | Convert-StringToQR
+```
+
+```PowerShell
+Convert-StringToQR -text "manage-bde –unlock c: -RecoveryPassword 002130-563959-533643-315590-484044-259380-247291-123563"
+```
+
+
+##🔵 Example 1
 
 This:
 
@@ -27,7 +40,7 @@ Results in this:
 Another one QR code could contain `cd c:\windows\system32\drivers\crowdstrike && del c-00000291*.sys` etc.
 
 
-## Example 2
+##🔵 Example 2
 
 This:
 
