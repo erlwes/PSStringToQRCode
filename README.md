@@ -18,8 +18,9 @@ install-Module -Name PSStringToQRCode
 
 This:
 
-![image](https://github.com/user-attachments/assets/5e78967d-afc9-402a-b209-8a62d93c87ec)
+![image](https://github.com/user-attachments/assets/dda75ae4-056f-40bc-ba7d-8dcec504dfcf)
+
 
 Results in this:
 
-![image](https://github.com/user-attachments/assets/ddb5ba97-3f24-454e-92e1-229d743be5ed)
+![image](https://github.com/user-attachments/assets/ccaaf53b-3f1e-4e6a-8ccf-cca43af1d391)
