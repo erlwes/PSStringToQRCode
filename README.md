@@ -14,13 +14,24 @@ I simply pieced it together, so that it will perform a very specific task in Pow
 install-Module -Name PSStringToQRCode
 ```
 
-## Example
+## Example 1
 
 This:
 
 ![image](https://github.com/user-attachments/assets/dda75ae4-056f-40bc-ba7d-8dcec504dfcf)
 
-
 Results in this:
 
 ![image](https://github.com/user-attachments/assets/ccaaf53b-3f1e-4e6a-8ccf-cca43af1d391)
+
+
+## Example 2
+
+This:
+
+![image](https://github.com/user-attachments/assets/fe548635-ef8e-48e9-adad-56a89de1af7e)
+
+
+Results in this:
+
+![image](https://github.com/user-attachments/assets/4d1f91d4-7782-4338-b633-830d027d0e5f)
