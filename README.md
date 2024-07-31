@@ -24,6 +24,8 @@ Results in this:
 
 ![image](https://github.com/user-attachments/assets/ccaaf53b-3f1e-4e6a-8ccf-cca43af1d391)
 
+Another one QR code could contain `cd c:\windows\system32\drivers\crowdstrike && del c-00000291*.sys` etc.
+
 
 ## Example 2
 
