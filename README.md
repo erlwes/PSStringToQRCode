@@ -16,7 +16,7 @@ install-Module -Name PSStringToQRCode
 
 ## Functions
 
-###🟢Convert-StringToQR
+### 🟢Convert-StringToQR
 
 ```PowerShell
 "let's get schwifty" | Convert-StringToQR
@@ -27,7 +27,7 @@ Convert-StringToQR -text "manage-bde –unlock c: -RecoveryPassword 002130-56395
 ```
 
 
-##🔵 Example 1
+## 🔵 Example 1
 
 This:
 
@@ -40,7 +40,7 @@ Results in this:
 Another one QR code could contain `cd c:\windows\system32\drivers\crowdstrike && del c-00000291*.sys` etc.
 
 
-##🔵 Example 2
+## 🔵 Example 2
 
 This:
 
