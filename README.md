@@ -16,12 +16,18 @@ install-Module -Name PSStringToQRCode
 
 ## Functions
 
-### 🟢Convert-StringToQR
+### 🟢 Convert-StringToQR
+Converts text strings to QR-code and display it on screen.
 
+**Parameters**
+
+**Usage**
+Generates a 200x200px QR-code and saves it as .png-image file.
 ```PowerShell
-"let's get schwifty" | Convert-StringToQR
+"let's get schwifty" | Convert-StringToQR -SaveImageOutput c:\temp\swifty.png -height 200 -width 200
 ```
 
+Generates a QR-code and displays it on the screen
 ```PowerShell
 Convert-StringToQR -text "manage-bde –unlock c: -RecoveryPassword 002130-563959-533643-315590-484044-259380-247291-123563"
 ```
