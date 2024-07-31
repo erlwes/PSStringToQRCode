@@ -9,12 +9,12 @@ PowerShell-module for converting text strings to QR-code and display it on scree
 All credits to the respectfull creators of the assemly-code used.
 I simply pieced it together, so that it will perform a very specific task in PowerShell :)
 
-## Install
+# Install
 ```PowerShell
 install-Module -Name PSStringToQRCode
 ```
 
-## Functions
+# Functions
 
 ### 🟢 Convert-StringToQR
 Converts text strings to QR-code and display it on screen.
@@ -35,8 +35,8 @@ Generates a QR-code and displays it on the screen
 ```PowerShell
 Convert-StringToQR -text "manage-bde –unlock c: -RecoveryPassword 002130-563959-533643-315590-484044-259380-247291-123563"
 ```
-
-## 🔵 Example 1
+# Examples
+### 🔵 Example 1
 
 This:
 
