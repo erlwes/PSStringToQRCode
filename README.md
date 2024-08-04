@@ -26,7 +26,8 @@ height | Height in px`(int)`
 width | Width in px`(int)`
 SaveImageOutput | Outputs PNG-file to specified path. Path must contain filename .png-extension `(string)`
 
-**Usage**
+#### Usage
+
 Generates a 200x200px QR-code and saves it as .png-image file.
 ```PowerShell
 "let's get schwifty" | Convert-StringToQR -SaveImageOutput c:\temp\swifty.png -height 200 -width 200
