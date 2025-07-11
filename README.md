@@ -1,3 +1,4 @@
+![PowerShell](https://img.shields.io/badge/PowerShell-5+-blue)
 ![PowerShell Gallery Downloads](https://img.shields.io/powershellgallery/dt/PSStringToQRCode)
 
 # PSStringToQRCode
