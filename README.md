@@ -1,3 +1,5 @@
+![PowerShell Gallery Downloads](https://img.shields.io/powershellgallery/dt/PSStringToQRCode)
+
 # PSStringToQRCode
 PowerShell-module for converting text strings to QR-code and display it on screen, or save it as a .PNG-image.
 
