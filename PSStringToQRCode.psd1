@@ -12,7 +12,7 @@
 RootModule = 'PSStringToQRCode.psm1'
 
 # Version number of this module.
-ModuleVersion = '1.0.0'
+ModuleVersion = '1.0.2'
 
 # Supported PSEditions
 # CompatiblePSEditions = @()
@@ -27,10 +27,10 @@ Author = 'EW'
 CompanyName = '-'
 
 # Copyright statement for this module
-Copyright = '(c) EW. All rights reserved.'
+#Copyright = '(c) EW. All rights reserved.'
 
 # Description of the functionality provided by this module
-Description = 'A module to convert strings to QR codes and display or save them as PNG images.'
+Description = 'A module to convert strings to QR codes and display in a GUI, save them as PNG images or output raw image stream.'
 
 # Minimum version of the PowerShell engine required by this module
 # PowerShellVersion = ''
@@ -99,13 +99,18 @@ PrivateData = @{
     PSData = @{
 
         # Tags applied to this module. These help with module discovery in online galleries.
-        # Tags = @()
+        Tags = @(
+          'QR-Code'
+          'QRCode'
+          'QR'
+          'Quick-Response'
+        )
 
         # A URL to the license for this module.
         # LicenseUri = ''
 
         # A URL to the main website for this project.
-        # ProjectUri = ''
+        ProjectUri = 'https://github.com/erlwes/PSStringToQRCode'
 
         # A URL to an icon representing this module.
         # IconUri = ''
