@@ -14,7 +14,7 @@ I simply pieced it together, so that it will perform a very specific task in Pow
 
 # Install
 ```PowerShell
-install-Module -Name PSStringToQRCode
+Install-Module -Name PSStringToQRCode
 ```
 
 # Functions
@@ -28,6 +28,7 @@ text (mandatory) | The input text `(string)`
 height | Height in px`(int)`
 width | Width in px`(int)`
 SaveImageOutput | Outputs PNG-file to specified path. Path must contain filename .png-extension `(string)`
+StreamOutput | Outputs a data stream containing the PNG-image. Pipe another tool og cmdlet `(switch)`
 
 #### Usage
 
@@ -39,6 +40,11 @@ Generates a QR-code and displays it on the screen
 ```PowerShell
 Convert-StringToQR -text "manage-bde –unlock c: -RecoveryPassword 002130-563959-533643-315590-484044-259380-247291-123563"
 ```
+Generates a QR-code and pipes it to a cmdlet that displays image in console
+```PowerShell
+Convert-StringToQR 'Ninja Turtles' -height 250 -width 250 -StreamOutput | ConvertTo-Sixel
+```
+
 # Visual examples
 ### 🔵 Example 1
 
@@ -63,3 +69,8 @@ This:
 Results in this:
 
 ![image](https://github.com/user-attachments/assets/4d1f91d4-7782-4338-b633-830d027d0e5f)
+
+
+## 🔵 Example 3
+
+<img width="962" height="292" alt="image" src="https://github.com/user-attachments/assets/f05d630e-81b1-481a-a542-bca9ffb9ad67" />
